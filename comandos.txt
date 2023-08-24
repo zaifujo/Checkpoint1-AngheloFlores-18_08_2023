@@ -1,0 +1,32 @@
+10655  mkdir Checkpoint1-AngheloFlores-18_08_2023
+10656  cd Checkpoint1-AngheloFlores-18_08_2023
+10657  git init
+10658  git config user.name "zaifujo"
+10659  git config user.email "cfloresu@uni.pe"
+10660  git branch -M main
+10661  git remote add origin git@github.com:zaifujo/Checkpoint1-AngheloFlores-18_08_2023.git
+10662  git remote -v
+10663  touch main.js index.html
+10664  git status
+10665  git add .
+10666  git status
+10667  git commit -m "commit 01 de AngheloFlores"
+10668  git push origin main
+10669  git branch feature
+10670  git branch
+10671  git checkout feature
+10672  mkdir Hardware Software SeguridadInformatica
+10673  ls
+10674  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+10675  git add .
+10676  git commit -m "commit 02 de AngheloFlores"
+10677  git push origin feature
+10678  git log
+10679  git checkout main
+10680  mv main.js resumenHardware.txt
+10681  ls
+10682  mv index.html resumenSoftware.txt
+10683  nano resumenSoftware.txt
+10684  nano resumenHardware.txt
+10685  touch comandos.txt
+10686  history 50 > comandos.txt
